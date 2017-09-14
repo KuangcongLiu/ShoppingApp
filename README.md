@@ -8,7 +8,7 @@ There are total 10 pages in this application, each with different functions and 
 ###  1. Home Page
  This page provides links to the login page and the sign-up page.
 
-<img src="./img/home.png" width="500" height="280">
+<img src="./img/home.png" width="400" height="200">
 
 ###  2. Signup Page
  In this page a user declares:
@@ -17,11 +17,11 @@ There are total 10 pages in this application, each with different functions and 
   his age, in a textbox
   his state, in a dropdown menu. The states is be displayed as full name “California”, “Nevada”, etc.
 
-<img src="./img/signup.png" width="500" height="280">
+<img src="./img/signup.png" width="400" height="200">
 
 If the user signed up successfully, the page will jump to the login page with an information saying "User cece successfully registered!!". 
 
-<img src="./img/signup-success.png" width="500" height="280">
+<img src="./img/signup-success.png" width="400" height="200">
 
 Otherwise, if the user failed to sign up, it will provide the reason for failure, such as "Your sign up failed
 Username already registered. Please choose another username or go to Login Screen".
@@ -32,7 +32,7 @@ Username already registered. Please choose another username or go to Login Scree
 ###  3. Login Page
  A user’s session with the application always starts from the “Login page”. In the “Login” page the user provides his name. The name is stored in the session.
 
-<img src="./img/login.png" width="400" height="250">
+<img src="./img/login.png" width="400" height="200">
 
 
 ###  4. Menu Page
@@ -40,11 +40,11 @@ Username already registered. Please choose another username or go to Login Scree
  
  The menu page for owner:
 
-<img src="./img/menu-owner.png" width="400" height="250">
+<img src="./img/menu-owner.png" width="400" height="200">
 
  The menu page for customer:
 
-<img src="./img/menu-customer.png" width="400" height="250">
+<img src="./img/menu-customer.png" width="400" height="200">
 
 ###  5. Category Page
  Owners can view and create product categories. This page displays the name and description of each category in text box and text area respectively, and offers “Insert”, “Delete” and “Update” buttons, since the owners can insert, delete and update categories. The page will show information of whether successfully insert/update/delete the category, such as "Data Insert Successfully".
@@ -91,13 +91,13 @@ The owner may also issue a search for products that contain a string provided by
  
  If the rows are individual customers then a “Next 20 customers” submit button is also displayed. A “Next 10” products is shown at all times and has similar behavior.
  
-<img src="./img/salesAnalytics.png" width="600" height="250">
+<img src="./img/salesAnalytics.png" width="1000" height="500">
 
 ###  12. Similar Products Page
 
 One typical data mining operation is to find products that are often bought by the same customers, by **cosine similarity**.
 
-<img src="./img/similar.png" width="600" height="250">
+<img src="./img/similar.png" width="300" height="500">
 
 
 ###  13. New Sales Analytics Page
@@ -106,6 +106,6 @@ The page offers refresh buttons. Upon clicking the refresh button, the page must
 
 The order of rows and columns will not change by the Refresh, even if this leads to an out-of- order table. 
 
-<img src="./img/new.png" width="600" height="250">
+<img src="./img/new.png" width="1000" height="500">
 
 
