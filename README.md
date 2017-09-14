@@ -81,15 +81,31 @@ The owner may also issue a search for products that contain a string provided by
 <img src="./img/confirmation.png" width="600" height="300">
 
 ###  11. Sales Analytics Page
- At the “Products” page the owners of the application can insert new products, where each product has a name, unique SKU, category and price. He provides his credit card in a text box and clicks “Purchase”. 
+ An owner can see a 2-dimensional report about sales aggregates on this dashboard page.
  
-<img src="./img/product.png" width="600" height="250">
-
-###  12. Product Page
- At the “Products” page the owners of the application can insert new products, where each product has a name, unique SKU, category and price.
+ **Rows dropdown menu:** offers the two options “Customers” and “States”. This dropdown menu allows the owner to choose whether the rows of the 2-dimensional report correspond to (option a) individual customers or (option b) customer states.
  
-<img src="./img/product.png" width="400" height="250">
+ **Columns dropdown menu:** correspond to individual products.
+ 
+ **Order dropdown menu:** offers the two options “Alphabetical” and “Top-K”, which allows the owner to choose whether the display of customers, states and products is in “Alphabetical” order or according to the total sales dollars in the case of Top-K.
+ 
+ If the rows are individual customers then a “Next 20 customers” submit button is also displayed. A “Next 10” products is shown at all times and has similar behavior.
+ 
+<img src="./img/salesAnalytics.png" width="600" height="250">
+
+###  12. Similar Products Page
+
+One typical data mining operation is to find products that are often bought by the same customers, by **cosine similarity**.
+
+<img src="./img/similar.png" width="600" height="250">
 
 
+###  13. New Sales Analytics Page
+
+The page offers refresh buttons. Upon clicking the refresh button, the page must be updated very fast regardless of what is the displayed analysis. Every number that has been updated (after the refresh) must appear in red. “Number” refers to the numbers that have appeared in a row header, a column header or a cell. 
+
+The order of rows and columns will not change by the Refresh, even if this leads to an out-of- order table. 
+
+<img src="./img/new.png" width="600" height="250">
 
 
