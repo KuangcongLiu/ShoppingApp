@@ -17,7 +17,7 @@ There are total 10 pages in this application, each with different functions and 
   his age, in a textbox
   his state, in a dropdown menu. The states is be displayed as full name “California”, “Nevada”, etc.
 
-![](./img/signup.png=100x20)
+![](./img/signup.png=50x20)
 
 If the user signed up successfully, the page will jump to the login page with an information saying "User cece successfully registered!!". 
 
