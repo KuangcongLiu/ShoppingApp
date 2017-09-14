@@ -8,7 +8,7 @@ There are total 10 pages in this application, each with different functions and 
 ###  1. Home Page
  This page provides links to the login page and the sign-up page.
 
-![](./img/home.png)
+![](./img/home.png =100*20)
 
 ###  2. Signup Page
  In this page a user declares:
