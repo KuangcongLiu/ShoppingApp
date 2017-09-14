@@ -109,3 +109,10 @@ The order of rows and columns will not change by the Refresh, even if this leads
 <img src="./img/new.png" width="1000" height="500">
 
 
+## Technologies
+
+* Utilizing databases by SQL, postgres/ JSP 
+
+* JavaScript
+
+* Ajax (for Web format)
